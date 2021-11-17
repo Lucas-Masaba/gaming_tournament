@@ -49,4 +49,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+The author is [Cindy Shin in Behance](https://www.behance.net/adagio07)
+This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
