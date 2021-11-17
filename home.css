@@ -124,6 +124,7 @@ img[src*="menu.png"] {
   margin-left: 2%;
 }
 .activities .activity:hover {
+  cursor: pointer;
   position: relative;
   border: #fff 2px solid;
 }

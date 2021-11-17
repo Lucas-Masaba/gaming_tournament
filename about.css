@@ -232,7 +232,8 @@ footer {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  padding: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .footer_logo {
@@ -240,13 +241,13 @@ footer {
 }
 
 .logo_for_warzone {
-  width: 140px;
-  height: 70px;
+  width: 100px;
+  height: 50px;
   padding-top: 6%;
 }
 
 .warzone_sweden {
-  font-size: 150%;
+  font-size: 100%;
   font-weight: bold;
 }
 
@@ -254,6 +255,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 90%;
 }
 
 /* desktop version */
