@@ -123,7 +123,10 @@ img[src*="menu.png"] {
   margin: 2%;
   margin-left: 2%;
 }
-
+.activities .activity:hover {
+  position: relative;
+  border: #fff 2px solid;
+}
 .img_activity {
   position: relative;
   padding: 3%;
@@ -256,7 +259,7 @@ img[src*="menu.png"] {
     justify-content: space-between;
   }
 
-  #about_link {
+  nav a:hover {
     color: #f35826;
   }
 
@@ -305,6 +308,7 @@ img[src*="menu.png"] {
     flex-direction: column;
     align-items: center;
   }
+
 
   .activity {
     color: #fff;
@@ -359,14 +363,25 @@ img[src*="menu.png"] {
   .partner_section {
     background: #414246;
     margin-top: 10%;
+    padding-bottom: 3%;
   }
-
+  
   .partner {
     color: #fff;
     text-align: center;
     font-weight: 500;
+    position: relative;  
+    padding-bottom: 1%;
   }
-
+  .partner::after {
+    content: '';
+  height: 2px;
+  width: 3%;
+  background: #f35826;
+  position: absolute;
+  bottom: 0;
+  left: 48.5%;
+  }
   .img_split {
     display: flex;
     justify-content: space-around;

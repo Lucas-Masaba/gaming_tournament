@@ -153,6 +153,7 @@ img[src*="menu.png"] {
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: ease-in-out 0.5s;
 }
 
 .nineteen {
@@ -160,6 +161,10 @@ img[src*="menu.png"] {
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: ease-in-out 0.5s;
+}
+.nineteen:hover, .twenty:hover {
+  transform: scale(1.05);
 }
 
 .year {
@@ -180,6 +185,7 @@ img[src*="menu.png"] {
 
 .partner_section {
   background: #414246;
+  padding-bottom: 2%;
 }
 
 .partner {
@@ -294,7 +300,7 @@ footer {
     justify-content: space-between;
   }
 
-  #about_link {
+  nav a:hover {
     color: #f35826;
   }
 
@@ -366,7 +372,8 @@ footer {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background: #414246;
   }
 
