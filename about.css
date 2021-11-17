@@ -146,6 +146,7 @@ img[src*="menu.png"] {
   align-items: center;
   padding: 80px;
   color: #fff;
+  text-align: center;
 }
 
 .twenty {
