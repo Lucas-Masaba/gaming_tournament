@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Gaming tournament
 
-> Warzone Gaming Toirnament
-
+> Warzone Gaming Tournament
+#Desktop Preview
 ![screenshot](./pics/desktop.png)
+#Mobile Version Preview
 ![screenshot](./pics/mobile.png)
 
 
