@@ -2,9 +2,9 @@
 # Gaming tournament
 
 > Warzone Gaming Tournament
-#Desktop Preview
+## Desktop Preview
 ![screenshot](./pics/desktop.png)
-#Mobile Version Preview
+## Mobile Version Preview
 ![screenshot](./pics/mobile.png)
 
 
