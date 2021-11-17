@@ -88,11 +88,22 @@ img[src*="menu.png"] {
 .main_program{
   position: relative;
   color: #ffffff;
-  padding: 10%;
+  padding-top: 10%;
+  padding-bottom: 2%;
   text-align: center;
 }
-.activities {
+.main_program::after {
   
+  content: '';
+  height: 2px;
+  width: 10%;
+  background: #f35826;
+  position: absolute;
+  bottom: 0px;
+  left: 45%;
+}
+.activities {
+  padding-top: 5%;
   list-style-type: none;
   font-size: 90%;
   
@@ -157,12 +168,22 @@ img[src*="menu.png"] {
 /*guest section*/
 .featured_guests {
   text-align: center;
- 
+  position: relative;
+  padding-bottom: 2%;
+}
+.featured_guests::after {
+   content: '';
+  height: 2px;
+  width: 10%;
+  background: #f35826;
+  position: absolute;
+  bottom: 0px;
+  left: 45%;
 }
 
 .guests {
   list-style-type: none;
-  
+  margin-top: 5%;
 }
 .guests li {
   display: flex;

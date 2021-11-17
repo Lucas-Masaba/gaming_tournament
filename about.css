@@ -65,11 +65,22 @@ img[src*="menu.png"] {
   
 }
 .logo_heading {
+  position: relative;
   text-align: center;
   padding-top: 5%;
    -webkit-box-shadow: 0 -4px 6px -6px #222;
   -moz-box-shadow: 0 -4px 6px -6px #222;
   box-shadow: 0 -4px 6px -6px #222;
+  padding-bottom: 2%;
+}
+.logo_heading::after {
+  content: '';
+  height: 2px;
+  width: 10%;
+  background: #f35826;
+  position: absolute;
+  bottom: 0px;
+  left: 45%;
 }
 .logo_creation {
   text-align: center;
@@ -149,14 +160,28 @@ img[src*="menu.png"] {
   font-size: 90%;
 }
 /*partner section*/
+.partner_section img {
+  padding-right: 5%;
+}
 .partner_section {
   background: #414246;
   
 }
 .partner {
+  position: relative;
   color: #ffffff;
   text-align: center;
   font-weight: 500;
+  padding-bottom: 2%;
+}
+.partner::after {
+  content: '';
+  height: 2px;
+  width: 5%;
+  background: #f35826;
+  position: absolute;
+  bottom: 0px;
+  left: 48%;
 }
 .img_split {
   display: flex;
@@ -171,6 +196,7 @@ img[src*="menu.png"] {
 .img2 {
   display: flex;
   justify-content: space-around;
+  
 }
 .partner_img {
   
@@ -212,6 +238,18 @@ footer {
   .hamburger_button {
     display: none;
   }
+  .heading {
+    position: relative;
+}
+  .heading::after {
+    content: '';
+  height: 2px;
+  width: 10%;
+  background: #f35826;
+  position: absolute;
+  bottom: 0px;
+  left: 45%;
+ }
   header::before {
     top: 11.5%;
   }
