@@ -106,7 +106,8 @@ img[src*="menu.png"] {
   padding-top: 5%;
   list-style-type: none;
   font-size: 90%;
-  
+  padding-right: 2%;
+  padding-left: 2%;
 }
 .activity {
   
