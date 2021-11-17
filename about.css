@@ -1,11 +1,29 @@
 * {
   font-family: 'Poppins', sans-serif;
+}
+header {
   
+}
+header::before  {
+  background: url("./pics/grey.png")no-repeat  0, 0 #f7f7f7;
+  content: "";
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+   background-size: cover;
+      position: absolute;
+  opacity: 0.70;
 }
 /*header*/
 .hamburger_button {
+  position: relative;
   border: none;
-  background-color: #ffffff;
+  outline: none;
+  background-color: transparent;
+  background-blend-mode: multiply;
+  overflow: hidden;
+  background-repeat: no-repeat;
 }
 img[src*="menu.png"] {
   width: 60%;
@@ -14,6 +32,7 @@ img[src*="menu.png"] {
 }
 
 .hello {
+  position: relative;
   color: #f35826;
   font-size: 200%;
   margin-bottom: 0%;
@@ -21,6 +40,7 @@ img[src*="menu.png"] {
   
 }
 .heading {
+  position: relative;
   color: #f35826;
   font-size: 400%;
   margin-top: 0%;
@@ -30,6 +50,7 @@ img[src*="menu.png"] {
 }
 /*intro section*/
 .why {
+  position: relative;
   border: solid black 1px;
   background-color: #ffffff;
   text-align: center;
@@ -38,8 +59,10 @@ img[src*="menu.png"] {
   margin-left: 3%;
 }
 .contact {
+  position: relative;
   text-align: center;
   margin: 10%;
+  
 }
 .logo_heading {
   text-align: center;
@@ -188,6 +211,12 @@ footer {
 @media (min-width: 481px) and (min-width: 768px) {
   .hamburger_button {
     display: none;
+  }
+  header::before {
+    top: 11.5%;
+  }
+  .navbar {
+    position: relative;
   }
   .warzone_head_logo{
     width: 100px;
