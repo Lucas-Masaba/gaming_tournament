@@ -2,18 +2,19 @@
   font-family: 'Poppins', sans-serif;
 }
 
-header::before  {
-  background: url("./pics/grey.png")no-repeat  0, 0 #f7f7f7;
+header::before {
+  background: url("./pics/grey.png") no-repeat  0, 0 #f7f7f7;
   content: "";
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-   background-size: cover;
-      position: absolute;
-  opacity: 0.70;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.7;
 }
-/*header*/
+
+/* header */
 .hamburger_button {
   position: relative;
   border: none;
@@ -23,6 +24,7 @@ header::before  {
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
 img[src*="menu.png"] {
   width: 60%;
   height: 70%;
@@ -35,8 +37,8 @@ img[src*="menu.png"] {
   font-size: 200%;
   margin-bottom: 0%;
   text-align: center;
-  
 }
+
 .heading {
   position: relative;
   color: #f35826;
@@ -46,72 +48,82 @@ img[src*="menu.png"] {
   padding-left: 3%;
   mix-blend-mode: multiply;
 }
-/*intro section*/
+
+/* intro section */
 .why {
   position: relative;
-  border: #f2F2f2 2px solid;
-  background-color: #ffffff;
+  border: #f2f2f2 2px solid;
+  background-color: #fff;
   text-align: center;
   padding: 4%;
   margin-right: 3%;
   margin-left: 3%;
 }
+
 .contact {
   position: relative;
   text-align: center;
   margin: 10%;
-  
 }
+
 .logo_heading {
   position: relative;
   text-align: center;
   padding-top: 5%;
-   -webkit-box-shadow: 0 -4px 6px -6px #222;
+  -webkit-box-shadow: 0 -4px 6px -6px #222;
   -moz-box-shadow: 0 -4px 6px -6px #222;
   box-shadow: 0 -4px 6px -6px #222;
   padding-bottom: 2%;
 }
+
 .logo_heading::after {
   content: '';
   height: 2px;
   width: 10%;
   background: #f35826;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 45%;
 }
+
 .logo_creation {
   text-align: center;
 }
+
 .logo_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #f2F2f2 2px solid;
+  border: #f2f2f2 2px solid;
   padding: 5%;
   margin-right: 3%;
   margin-left: 3%;
   margin-top: 5%;
 }
+
 .warzone_logo {
   width: 200px;
 }
+
 .warzone {
   font-weight: bold;
   margin-bottom: 0%;
 }
+
 .logo_text {
   margin-left: 2%;
-} 
+}
+
 .period {
-  border-top: #f2F2f2 solid 2px;
-  border-bottom  : #f2F2f2 solid 1px;
+  border-top: #f2f2f2 solid 2px;
+  border-bottom: #f2f2f2 solid 1px;
   margin-top: 0%;
   font-size: 75%;
 }
-/*previous tournaments section*/
+
+/* previous tournaments section */
 .previous_tournaments {
-  border-top: #f2F2f2 2px solid;
+  border-top: #f2f2f2 2px solid;
   margin-top: 5%;
   display: flex;
   flex-direction: column;
@@ -121,9 +133,11 @@ img[src*="menu.png"] {
 .previous_text {
   text-align: center;
 }
+
 .previous_list {
   list-style-type: none;
 }
+
 .previous_list li {
   border: none;
   margin-bottom: 7%;
@@ -131,221 +145,303 @@ img[src*="menu.png"] {
   flex-direction: column;
   align-items: center;
   padding: 80px;
-  
-  color: #ffffff;
-  
+  color: #fff;
 }
+
 .twenty {
   background: url("./pics/gaming.jpg") no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
+
 .nineteen {
   background: url("./pics/gaming2.jpg") no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .year {
   margin-bottom: 0%;
   font-weight: bold;
   font-size: 200%;
 }
+
 .venue {
   margin-top: 0%;
   font-size: 90%;
 }
-/*partner section*/
+
+/* partner section */
 .partner_section img {
   padding-right: 5%;
 }
+
 .partner_section {
   background: #414246;
-  
 }
+
 .partner {
   position: relative;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   font-weight: 500;
   padding-bottom: 2%;
 }
+
 .partner::after {
   content: '';
   height: 2px;
   width: 5%;
   background: #f35826;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 48%;
 }
+
 .img_split {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
+
 .img1 {
   display: flex;
   justify-content: space-around;
 }
+
 .img2 {
   display: flex;
   justify-content: space-around;
-  
 }
+
 .partner_img {
-  
   width: 100px;
   height: 100px;
 }
 
-/*footer*/
+/* footer */
 footer {
   display: flex;
   justify-content: center;
   justify-content: space-around;
   padding: 10%;
 }
+
 .footer_logo {
   display: flex;
-  
 }
+
 .logo_for_warzone {
   width: 140px;
   height: 70px;
   padding-top: 6%;
-  
 }
+
 .warzone_sweden {
   font-size: 150%;
   font-weight: bold;
 }
+
 .rights {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/*desktop version*/
+/* desktop version */
 
-/*desktop*/
+/* desktop */
 @media (min-width: 481px) and (min-width: 768px) {
   .hamburger_button {
     display: none;
   }
-  .heading {
-    position: relative;
-}
+
+
+
   .heading::after {
     content: '';
-  height: 2px;
-  width: 10%;
-  background: #f35826;
-  position: absolute;
-  bottom: 0px;
-  left: 45%;
- }
+    height: 2px;
+    width: 10%;
+    background: #f35826;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+  }
+
   header::before {
     top: 11.5%;
   }
-  .navbar {
-    position: relative;
-  }
-  .warzone_head_logo{
+
+
+
+  .warzone_head_logo {
     width: 100px;
   }
+
   .navbar {
+    position: relative;
     display: flex;
     justify-content: space-around;
-    
     -webkit-box-shadow: 0 4px 6px -6px #222;
-  -moz-box-shadow: 0 4px 6px -6px #222;
-  box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
   }
+
   .navigation {
     display: flex;
     justify-content: space-between;
-    
   }
+
   #about_link {
     color: #f35826;
   }
+
   .navigation a {
     padding-right: 10%;
     text-decoration: none;
-    color: #000000;
+    color: #000;
   }
+
   .wz_btn {
     color: #f35826;
     border: #f35826 5px solid;
     margin-bottom: 5%;
   }
+
   .wz_btn:hover {
     cursor: pointer;
     color: white;
     background: #f35826;
   }
+
   .hello {
     display: none;
   }
+
   .heading {
+    position: relative;
     text-align: center;
     padding-top: 6%;
     padding-right: 20%;
     padding-left: 20%;
   }
-  /*intro section*/
+
+  /* intro section */
   .why {
     margin-right: 20%;
     margin-left: 20%;
   }
+
   .contact {
     margin-top: 3%;
     margin-bottom: 3%;
   }
+
   .logo_container {
     margin-right: 20%;
     margin-left: 20%;
   }
-  /*previous tournaments section*/
+
+  /* previous tournaments section */
   .previous_list {
     display: flex;
-    
   }
+
   .twenty {
     margin-right: 2%;
   }
-  /*partner section*/
+
+  /* partner section */
   .partner_section {
     display: none;
   }
+
   footer {
     display: none;
   }
+
   .desktop_footer {
     display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  padding: 10%;
-  background: #414246;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10%;
+    background: #414246;
   }
+
   .warzone_sweden {
-    color: #ffffff;
+    color: #fff;
   }
+
   .rights {
-    color: #ffffff;
+    color: #fff;
   }
 }
- 
-/*mobile*/
+
+/* mobile */
 @media (max-width: 768px) and (max-width: 1100px) {
-  .navbar{
+  .navbar {
     display: none;
   }
+
   .desktop_footer {
     display: none;
   }
 }
+/*mobile menu button*/
+
+.blur {
+  position: fixed;
+  filter: blur(8px);
+}
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f35826;
+    mix-blend-mode: multiply;
+    transition: 200ms ease-in-out;
+    transform: scale(0);
+    z-index: 10;
+  }
+
+  .mobile-menu.active {
+    transform: scale(1);
+  }
+
+  .mobile-menu-header {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .mobile-menu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .mobile-menu a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 4%;
+  }
+
+  .close-button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background: none;
+    font-size: 400%;
+    font-weight: 100;
+  }

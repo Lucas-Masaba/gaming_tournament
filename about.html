@@ -11,10 +11,30 @@
 </head>
 
 <body>
+<div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-header">
+      <button type="button" data-close-button class="close-button">&times;</button>
+    </div>
+    <nav>
+      <a href="./index.html" data-close-button class="navigate">
+        Home
+      </a>
+      <a href="./about.html" data-close-button class="navigate">
+        About
+      </a>
+      <a href="./index.html#program" data-close-button class="navigate">
+        Program
+      </a>
+      <a href="#" data-close-button class="navigate">
+        Jobs
+      </a>
+      <a href="./about.html#sponsor" data-close-button class="navigate">
+        Sponsor
+      </a>
+    </nav>
+  </div>
   <header>
-    <button type="button" class="hamburger_button">
-      <img src="./pics/menu.png" alt="menu icon">
-    </button>
+    
     <div class="navbar">
       <div><a href="./index.html"><img class="warzone_head_logo" src="./pics/warzone.png" alt=""></a></div>
 
@@ -27,10 +47,14 @@
       </nav>
 
     </div>
-    <p class="hello">"Hello! Call of duty community"</p>
-    <h1 class="heading">WARZONE WORLD SERIES 2021</h1>
+    
   </header>
-  <main>
+  <main class="main">
+<button type="button" class="hamburger_button" data-mobile-menu-target="#mobile-menu">
+      <img src="./pics/menu.png" alt="menu icon">
+    </button>
+<p class="hello">"Hello! Call of duty community"</p>
+    <h1 class="heading">WARZONE WORLD SERIES 2021</h1>
     <section class="intro">
       <p class="why">The warzone world series brings together the top players to clash in an intense battle
         royale. You will see how teams tactically push through their games and crash their opponents
@@ -63,7 +87,7 @@
         </li>
       </ul>
     </section>
-    <section class="partner_section">
+    <section class="partner_section" id="sponsor">
       <h3 class="partner">Partner</h3>
       <div class="img_split">
         <div class="img1"><img class="partner_img" src="./pics/bull.png" alt="toro"><img class="partner_img"
@@ -89,6 +113,7 @@
       <div class="rights">2021 Warzone World Series<br>Some rights reserved</div>
     </footer>
   </main>
+<script defer src="./js/script.js"></script>
 </body>
 
 </html>
