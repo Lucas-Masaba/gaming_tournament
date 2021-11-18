@@ -43,6 +43,10 @@ After you have copied the link, enter the command below in your terminal
 
 [Here](https://lucas-masaba.github.io/gaming_tournament/) is a link to the online view of my website
 
+## Video
+
+[Here](https://www.loom.com/share/085e869d751c48e1a11286cfe1f5141c) is alink to a video explaining the features
+
 ## Show your support
 
 Give a ⭐️ if you like this project!

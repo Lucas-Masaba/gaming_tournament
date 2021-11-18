@@ -160,11 +160,12 @@ img[src*="menu.png"] {
 .nineteen {
   background: url("./pics/gaming2.jpg") no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
-  background-repeat: no-repeat;
   background-size: cover;
   transition: ease-in-out 0.5s;
 }
-.nineteen:hover, .twenty:hover {
+
+.nineteen:hover,
+.twenty:hover {
   transform: scale(1.05);
 }
 
@@ -270,8 +271,6 @@ footer {
     display: none;
   }
 
-
-
   .heading::after {
     content: '';
     height: 2px;
@@ -285,8 +284,6 @@ footer {
   header::before {
     top: 11.5%;
   }
-
-
 
   .warzone_head_logo {
     width: 100px;
@@ -306,14 +303,14 @@ footer {
     justify-content: space-between;
   }
 
-  nav a:hover {
-    color: #f35826;
-  }
-
   .navigation a {
     padding-right: 10%;
     text-decoration: none;
     color: #000;
+  }
+
+  .navigation a:hover {
+    color: #f35826;
   }
 
   .wz_btn {
@@ -401,60 +398,65 @@ footer {
   .desktop_footer {
     display: none;
   }
+
+  .previous_list {
+    margin-right: 10%;
+  }
 }
-/*mobile menu button*/
+
+/* mobile menu button */
 
 .blur {
   position: fixed;
   filter: blur(8px);
 }
+
 .mobile-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #f35826;
-    mix-blend-mode: multiply;
-    transition: 200ms ease-in-out;
-    transform: scale(0);
-    z-index: 10;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #f35826;
+  mix-blend-mode: multiply;
+  transition: 200ms ease-in-out;
+  transform: scale(0);
+  z-index: 10;
+}
 
-  .mobile-menu.active {
-    transform: scale(1);
-  }
+.mobile-menu.active {
+  transform: scale(1);
+}
 
-  .mobile-menu-header {
-    display: flex;
-    justify-content: flex-end;
-    
-  }
+.mobile-menu-header {
+  display: flex;
+  justify-content: flex-end;
+}
 
-  .mobile-menu nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #fff;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 44px;
-  }
+.mobile-menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+}
 
-  .mobile-menu a {
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer;
-    padding: 4%;
-  }
+.mobile-menu a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 4%;
+}
 
-  .close-button {
-    border: none;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background: none;
-    font-size: 400%;
-    font-weight: 100;
-  }
+.close-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background: none;
+  font-size: 400%;
+  font-weight: 100;
+}
