@@ -282,8 +282,28 @@ footer {
   }
 
   header::before {
-    top: 11.5%;
+    top: 19%;
   }
+
+  .social_media {
+    background: #585858;
+  }
+
+  .social_nav {
+    padding-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+  }
+
+  .social_nav a {
+    padding-right: 2%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 85%;
+  }
+
 
   .warzone_head_logo {
     width: 100px;
@@ -296,6 +316,7 @@ footer {
     -webkit-box-shadow: 0 4px 6px -6px #222;
     -moz-box-shadow: 0 4px 6px -6px #222;
     box-shadow: 0 4px 6px -6px #222;
+    padding-top: 1%;
   }
 
   .navigation {
@@ -304,7 +325,7 @@ footer {
   }
 
   .navigation a {
-    padding-right: 10%;
+    padding-right: 8%;
     text-decoration: none;
     color: #000;
   }
@@ -317,6 +338,7 @@ footer {
     color: #f35826;
     border: #f35826 5px solid;
     margin-bottom: 5%;
+    min-width: 35%;
   }
 
   .wz_btn:hover {
@@ -401,6 +423,10 @@ footer {
 
   .previous_list {
     margin-right: 10%;
+  }
+
+  .social_media {
+    display: none;
   }
 }
 
