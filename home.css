@@ -235,6 +235,38 @@ img[src*="menu.png"] {
   font-size: 95%;
 }
 
+/* footer */
+footer {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.footer_logo {
+  display: flex;
+}
+
+.logo_for_warzone {
+  width: 120px;
+  height: 60px;
+  padding-top: 6%;
+}
+
+.warzone_sweden {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.reserved {
+  font-weight: bold;
+}
+
+.rights {
+  font-size: 90%;
+  padding-left: 5%;
+}
+
 /* desktop version */
 @media (min-width: 481px) and (min-width: 768px) {
   .hamburger_button {
@@ -420,6 +452,16 @@ img[src*="menu.png"] {
     width: 100px;
     height: 100px;
   }
+
+  /* footer */
+  .desktop_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #fff;
+  }
 }
 
 @media (max-width: 768px) and (max-width: 1100px) {
@@ -436,6 +478,10 @@ img[src*="menu.png"] {
   }
 
   .social_media {
+    display: none;
+  }
+
+  .desktop_footer {
     display: none;
   }
 }
