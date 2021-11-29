@@ -8,7 +8,7 @@ function openMenu(mobileMenu, mainTag) {
   mainTag.classList.add('blur');
 }
 
-function closeMenu(mobileMenu) {
+function closeMenu(mobileMenu, mainTag) {
   if (mobileMenu == null) return;
   mobileMenu.classList.remove('active');
   mainTag.classList.remove('blur');
@@ -23,6 +23,6 @@ openMobileMenu.forEach((button) => {
 closeMobileMenu.forEach((button) => {
   button.addEventListener('click', () => {
     const mobileMenu = button.closest('.mobile-menu');
-    closeMenu(mobileMenu);
+    closeMenu(mobileMenu, mainTag);
   });
 });
